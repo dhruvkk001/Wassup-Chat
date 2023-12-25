@@ -1,4 +1,5 @@
-const socket = io()
+const socket = io("https://wassupchat-2db1c.firebaseapp.com/");
+
 let name;
 let textarea = document.querySelector('#textarea')
 let messageArea = document.querySelector('.message__area')
